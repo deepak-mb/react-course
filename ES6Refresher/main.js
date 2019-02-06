@@ -15,3 +15,24 @@ const people = [
 const people2 = people.filter(person => person.id != 2);
 console.log(people2);
 
+//SPREAD - USED TO MAKE A COPY OF ARRAY OR OBJECT AND APPEND TO IT
+const arr1 = [1, 2, 3];
+const arr2 = [...arr1, 4];
+console.log(arr2);
+
+//DESTRUCTURING
+const profile = {
+  name: "Deepak",
+  address: {
+    city: "Bangalore",
+    state: "Karnataka",
+    country: "India"
+  },
+  hobbies: ["movies", "music"]
+};
+
+const { name, address, hobbies } = profile;
+console.log(name, address, hobbies);
+
+const { city, state } = profile.address;
+console.log(city, state);
