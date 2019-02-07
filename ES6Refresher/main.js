@@ -36,3 +36,4 @@ console.log(name, address, hobbies);
 
 const { city, state } = profile.address;
 console.log(city, state);
+
