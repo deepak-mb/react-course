@@ -1,0 +1,39 @@
+Things to install:
+1. NodeJS
+2. React Developer Tools(Chrome Extension)
+3. Redux DevTools(Chrome Extension)
+4. Visual Studio Code Extensions
+5. Install ReactJS
+6. Create ReactJS project
+
+Install commands
+1. NodeJS
+//Get latest NodeJS ppa
+curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+
+//Setup NodeJS
+sudo bash nodesource_setup.sh
+
+//Install NodeJS
+sudo apt install nodejs
+
+//Check version of NodeJS
+nodejs -v
+
+2. React Developer Tools
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+3. Redux DevTools
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+
+4. Visual Studio Code Extensions
+  - Bracket Pair Colorizer
+  - ES7 React/Redux/GraphQL/React-Native snippets
+  - Prettier - Code formatter
+  
+5. Install ReactJS
+-g will install react app globally 
+sudo npm install -g create-react-app
+
+6. Create ReactJS project
+create-react-app app-name
