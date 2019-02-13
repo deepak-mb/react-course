@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "./Components/Header";
-import Contact from "./Components/Contact";
+import Contacts from "./Components/Contacts";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -11,16 +11,7 @@ class App extends Component {
       <div className="App">
         <Header branding="Contact Manager" />
         <div className="container">
-          <Contact
-            name="John Doe"
-            email="jdow@gmail.com"
-            phone="555-555-5555"
-          />
-          <Contact
-            name="Karen Smith"
-            email="karen@gmail.com"
-            phone="555-555-6666"
-          />
+          <Contacts />
         </div>
       </div>
     );
