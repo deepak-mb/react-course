@@ -25,7 +25,7 @@ const TextInputGroup = ({
         onChange={onChange}
       />
       {error && <div className="invalid-feedback">{error}</div>}
-    </div> 
+    </div>
   );
 };
 

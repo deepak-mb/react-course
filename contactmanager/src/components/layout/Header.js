@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Header = props => {
   const { branding } = props;
@@ -13,9 +14,16 @@ const Header = props => {
           <div>
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="/">
-                  Home
-                </a>
+                <Link to="/" class="nav-link d-inline">
+                  <i className="fas fa-home" /> Home
+                </Link>
+                <Link to="/contact/add" class="nav-link d-inline">
+                  <i className="fas fa-plus" /> 
+                  Add
+                </Link>
+                <Link to="/about" class="nav-link d-inline">
+                  <i className="fas fa-question" /> About
+                </Link>
               </li>
             </ul>
           </div>
